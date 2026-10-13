@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam El Mehdi | E-Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+        }
+        header {
+            background: #681c36;
+            color: white;
+            padding: 35px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: #eee;
+        }
+        nav button {
+            padding: 16px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        nav button.active {
+            background: #681c36;
+            color: white;
+        }
+        section {
+            display: none;
+            padding: 40px;
+        }
+        section.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Adam El Mehdi</h1>
+    <p>Engineering Student | ENSEEIHT</p>
+</header>
+
+<nav>
+    <button class="active" onclick="showTab('welcome', this)">WELCOME</button>
+    <button onclick="showTab('courses', this)">Engineering Courses</button>
+    <button onclick="showTab('mobility', this)">International Mobility</button>
+    <button onclick="showTab('sustainability', this)">Sustainability and Civic Engagement</button>
+    <button onclick="showTab('sport', this)">Sport and Other Activities</button>
+    <button onclick="showTab('career', this)">Career Development</button>
+</nav>
+
+<section id="welcome" class="active">
+    <h2>WELCOME</h2>
+</section>
+
+<section id="courses">
+    <h2>Engineering Courses</h2>
+</section>
+
+<section id="mobility">
+    <h2>International Mobility</h2>
+</section>
+
+<section id="sustainability">
+    <h2>Sustainability and Civic Engagement</h2>
+</section>
+
+<section id="sport">
+    <h2>Sport and Other Activities</h2>
+</section>
+
+<section id="career">
+    <h2>Career Development</h2>
+</section>
+
+<script>
+function showTab(id, button) {
+    document.querySelectorAll('section').forEach(
+        section => section.classList.remove('active')
+    );
+    document.querySelectorAll('nav button').forEach(
+        btn => btn.classList.remove('active')
+    );
+    document.getElementById(id).classList.add('active');
+    button.classList.add('active');
+}
+</script>
+
+</body>
+</html>
+
