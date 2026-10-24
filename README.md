@@ -33,6 +33,7 @@ Le changement de langue conserve le choix dans le navigateur et accepte
 - `assets/css/portfolio.css` : palette, mise en page et adaptation mobile.
 - `assets/js/portfolio.js` : langue, menu mobile, navigation et agrandissement des captures.
 - `assets/images/` : illustration de principe du TIPE et capture de démonstration d’IMSA Sentinel.
+- `docs/` : CV français et anglais, présentation complète du TIPE.
 
 Les liens et ressources sont relatifs afin de permettre une consultation locale.
 GitHub Pages publie la branche `main` depuis la racine. Aucun formulaire ni suivi
@@ -43,8 +44,8 @@ statistique n’est ajouté.
 Les objectifs de mobilité et le mandat de délégué sont présentés selon leur
 état actuel. Le compte rendu du TP de Poiseuille reste à venir. Aucun stage,
 responsabilité associative supérieure ou action bénévole non réalisée n’est déclaré.
-Le TIPE est présenté sur sa page dédiée.
-Le contact se fait par LinkedIn.
+Les CV français et anglais ainsi que la présentation du TIPE sont accessibles en PDF.
+Le numéro de téléphone a été retiré des CV publics et l’identifiant de concours a été retiré du TIPE. Le contact se fait par e-mail ou LinkedIn.
 
 L’illustration du TIPE est un schéma de principe, sans données de mesure.
 La capture IMSA a été réalisée sur un document entièrement fictif, créé pour
