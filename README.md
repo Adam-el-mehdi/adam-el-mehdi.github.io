@@ -1,72 +1,37 @@
 # Adam El Mehdi — Engineering portfolio
 
-Version 2 du portfolio d’Adam El Mehdi, élève ingénieur MF2E à l’ENSEEIHT.
-Site statique bilingue français/anglais, publié avec GitHub Pages.
+Portfolio personnel bilingue français / anglais, publié sur https://adam-el-mehdi.github.io/.
 
-**Site : https://adam-el-mehdi.github.io/**
+![Aperçu du portfolio Story](docs/story-preview.jpg)
 
-## Navigation
+## Version Story
 
-Les six rubriques principales sont conservées :
+Adaptation personnelle du thème **Story**, par AJ / HTML5 UP : https://html5up.net/story.
+La licence CC BY 3.0 est conservée dans `LICENSE-STORY.txt` et l’attribution figure en pied de page.
+La feuille CSS de base provient du miroir `zce/html5up/story/assets/css/main.css`. Les imports de polices et d’icônes inutilisés ont été retirés. La personnalisation est dans `assets/css/portfolio-story.css` et les interactions dans `assets/js/story-portfolio.js`.
 
-1. WELCOME
-2. Engineering Courses
-3. International Mobility
-4. Sustainability and Civic Engagement
-5. Sport and Other Activities
-6. Career Development
+Site statique, sans installation, compilation, formulaire serveur ni suivi statistique.
 
-Deux pages présentent les projets en détail :
+## Contenu et navigation
 
-- `projects/tipe.html` : expérience individuelle de freinage magnétique.
-- `projects/imsa.html` : prototype IMSA Sentinel du hackathon IA Impact.
+Les six rubriques convenues sont conservées : WELCOME ; Engineering Courses ; International Mobility ; Sustainability and Civic Engagement ; Sport and Other Activities ; Career Development.
+Le menu utilise des libellés courts dans la langue sélectionnée. Les intitulés complets restent visibles dans les sections.
 
-## Modifier le contenu
+- `index.html` : parcours, projets, compétences, mobilité, engagements, activités, CV et contact.
+- `projects/tipe.html` : montage réel, démarche expérimentale, résultats et présentation PDF.
+- `projects/imsa.html` : démonstration fictive, exemple de contrôle et contribution au hackathon.
+- `docs/` : CV français / anglais et présentation du TIPE sans identifiant de concours.
 
-Le site fonctionne sans installation ni compilation. Les trois pages HTML
-contiennent le texte français visible et les traductions dans les attributs
-`data-fr` / `data-en`. Les images utilisent `data-alt-fr` / `data-alt-en`.
-Le changement de langue conserve le choix dans le navigateur et accepte
-également `?lang=en` dans l’URL. Sans JavaScript, le contenu reste lisible en français.
+Les textes sont stockés dans les attributs `data-fr` / `data-en`. Le choix de langue est conservé localement et peut être transmis avec `?lang=en`. Le CV correspondant à la langue est mis en avant à l’accueil. Sans JavaScript, le français reste accessible.
 
-- `assets/css/hyperspace.css` : base du thème.
-- `assets/css/portfolio.css` : palette, mise en page et adaptation mobile.
-- `assets/js/portfolio.js` : langue, menu mobile, navigation et agrandissement des captures.
-- `assets/images/` : illustration de principe du TIPE et capture de démonstration d’IMSA Sentinel.
-- `docs/` : CV français et anglais, présentation complète du TIPE.
+## Visuels et données
 
-Les liens et ressources sont relatifs afin de permettre une consultation locale.
-GitHub Pages publie la branche `main` depuis la racine. Aucun formulaire ni suivi
-statistique n’est ajouté.
+Les photographies du TIPE sont extraites sans modification des photos incorporées dans la présentation fournie par Adam. Le graphique est le rendu de la page 29 du PDF public. Les coefficients et incertitudes proviennent des pages 29 à 31.
 
-## Périmètre de cette version
+La capture IMSA montre la véritable interface sur un document entièrement fictif. L’exemple R12 (100 euros contre 105 euros, écart de 5 euros) provient de l’analyse locale de ce dossier fictif. Le gabarit est fixé pour cette démonstration ; ce n’est pas une mesure de performance. Aucun dossier médical réel ni capture brute contenant des identifiants n’est publié.
 
-Les objectifs de mobilité et le mandat de délégué sont présentés selon leur
-état actuel. Le compte rendu du TP de Poiseuille reste à venir. Aucun stage,
-responsabilité associative supérieure ou action bénévole non réalisée n’est déclaré.
-Les CV français et anglais ainsi que la présentation du TIPE sont accessibles en PDF.
-Le numéro de téléphone a été retiré des CV publics et l’identifiant de concours a été retiré du TIPE. Le contact se fait par e-mail ou LinkedIn.
+Les participations, objectifs de mobilité et responsabilités sont présentés selon les informations validées. Aucun stage, échange confirmé, responsabilité associative supérieure ou résultat industriel n’est inventé.
 
-L’illustration du TIPE est un schéma de principe, sans données de mesure.
-La capture IMSA a été réalisée sur un document entièrement fictif, créé pour
-cette démonstration sur un gabarit connu. Les lectures OCR ont été calculées
-localement par le prototype ; le gabarit a été fixé pour cet exemple. Elle ne
-constitue pas un test de reconnaissance automatique de mise en page ni une
-mesure de performance. Les montants et identifiants sont fictifs. Aucun dossier
-de santé, fichier de l’archive privée ou capture contenant des données réelles
-n’est publié.
+## Publication
 
-La V2 privilégie des textes à la première personne et une mise en page plus
-aérée. Les expériences de voyage, de sport et d’engagement sont présentées
-simplement, sans attribuer de responsabilités ou de résultats non réalisés.
-
-## Thème et licence
-
-Adaptation de **Hyperspace**, par AJ / HTML5 UP : https://html5up.net/hyperspace
-Licence Creative Commons Attribution 3.0 conservée dans `LICENSE-HYPERSPACE.txt`.
-La base CSS a été reprise du miroir `zce/html5up` ; seul l’import de la police
-d’icônes, inutilisée, a été retiré. La personnalisation et les interactions
-de cette version sont fournies dans les fichiers distincts ci-dessus.
-
-Le pied de page conserve l’attribution du thème. Les contenus personnels,
-captures et documents sources restent soumis à leurs droits respectifs.
+GitHub Pages publie la branche `main` depuis la racine. Les liens internes sont relatifs ; les PDF s’ouvrent dans un nouvel onglet. Le site respecte les préférences de réduction des animations et propose un lien d’évitement, une navigation au clavier et un agrandissement des images.
