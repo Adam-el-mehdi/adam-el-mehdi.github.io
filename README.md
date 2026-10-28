@@ -81,7 +81,7 @@ La vidéo doit être un fichier directement lisible (MP4, par exemple). Une page
 
 Remplacer `docs/cv-adam-el-mehdi-fr.pdf` et `docs/cv-adam-el-mehdi-en.pdf` en conservant leurs noms. L’accueil propose le CV de la langue choisie ; les deux restent disponibles dans Career Development.
 
-Les variables de couleurs se trouvent au début de `portfolio-story.css` : `--wine`, `--ink`, `--paper`, `--pale`, `--muted`, `--line`. Les valeurs sombres sont dans `theme-media.css`, sous `[data-theme=dark]`. La première visite suit le thème système, puis le choix manuel est mémorisé sur les trois pages. Les photos et captures ne sont pas inversées.
+Les variables de couleurs se trouvent au début de `portfolio-story.css` : `--wine`, `--ink`, `--paper`, `--pale`, `--muted`, `--line`. Les valeurs sombres sont dans `theme-media.css`, sous `[data-theme=dark]`. La première visite suit le thème système, puis le choix manuel est mémorisé sur les quatre pages. Les photos et captures ne sont pas inversées.
 
 ## Origine des visuels
 
@@ -114,3 +114,23 @@ Enseignements / langues :
 GitHub Pages publie `main` depuis la racine. Modifier les fichiers sur GitHub puis créer un commit. Vérifier dans Actions que « pages build and deployment » termine avec succès, puis ouvrir le site et actualiser.
 
 Avant publication : vérifier le menu, FR / EN, les deux thèmes, les PDF, les images et le mobile. Les chemins relatifs permettent aussi un hébergement sous un préfixe de dépôt. `_qa-mobile.html` est réservé aux tests locaux et ne doit pas être publié.
+
+## Révision : preuves et lecture plus directe
+
+Les projets documentés sont présentés avant les six thèmes de cours. Les coordonnées, la chronologie et les langues sont regroupées pour limiter les répétitions. Les détails des trois accords allemands restent disponibles dans des volets dépliables. La zone portrait reste vide ; le pitch dispose d’un emplacement plus compact.
+
+Une quatrième page, `courses/poiseuille.html`, décrit la méthode du TP confirmé : débit, différence de charge, Reynolds et conditions de validité du modèle. C’est une fiche de méthode ; les mesures et le rapport n’ont pas été fournis et ne sont pas inventés.
+
+### Visuel IMSA principal
+
+`assets/images/imsa-detections-public.png` est une version anonymisée de la capture de détail de dossier fournie par Adam, avec les détections vertes et rouges. Le contenu du document et l’en-tête du dossier ont été masqués par retouche de confidentialité à partir de cette capture. Cette image remplace la supervision en couverture. La capture originale contenant des identifiants n’est pas ajoutée au dépôt. Les vues de supervision et des règles restent consultables comme compléments.
+
+### Données et code du TIPE
+
+- `assets/code/tipe_analyse.py` : code des annexes A6–A8, pages 42–44 du PDF. Les séries de 20 et 30 vitesses sont conservées. Seuls les chemins de sortie et le nom du paramètre Matplotlib `labels` devenu `tick_labels` ont été adaptés (Matplotlib >= 3.9).
+- `assets/code/tipe_acquisition.ino` : code Arduino des annexes A9–A10, pages 45–46. Il est fourni comme source du montage décrit, sans prétendre à une nouvelle validation matérielle.
+- `assets/images/tipe-coefficients.png` : figure remise en forme avec Matplotlib à partir des coefficients arrondis et des incertitudes-types rapportées pages 29–31. Les valeurs tracées sont 0,229 ± 0,007 et 0,183 ± 0,005 kg/s. Les barres d’erreur ne représentent pas un intervalle de confiance à 95 %.
+
+Le script Python exécuté reproduit les coefficients arrondis de la présentation et un rapport d’environ 0,80. Le graphique principal n’est affiché qu’une fois sur la page détaillée ; les choix expérimentaux et les limites renvoient directement aux pages correspondantes du PDF.
+
+Les anecdotes de délégué, les retours personnels détaillés sur les ateliers RSE et une fonctionnalité IMSA précise restent à compléter avec les informations d’Adam. Des commentaires HTML réservent leur emplacement. Les formulations publiques restent limitées aux éléments déjà établis.

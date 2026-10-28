@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr" data-description-fr="Fiche de méthode du TP de Poiseuille : débit, différence de charge, Reynolds et hypothèses du modèle." data-description-en="Poiseuille practical method: flow rate, head difference, Reynolds number and model assumptions.">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#702d40">
+<script>(()=>{try{const p=localStorage.getItem('adam-portfolio-theme');document.documentElement.dataset.theme=(p==='light'||p==='dark')?p:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(_){document.documentElement.dataset.theme='light'}})();</script>
+<title data-fr="TP de Poiseuille | Adam El Mehdi" data-en="Poiseuille practical | Adam El Mehdi">TP de Poiseuille | Adam El Mehdi</title>
+<meta name="description" content="Fiche de méthode du TP de Poiseuille : débit, différence de charge, Reynolds et hypothèses du modèle.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TP de Poiseuille | Adam El Mehdi">
+<meta property="og:description" content="Fiche de méthode du TP de Poiseuille : débit, différence de charge, Reynolds et hypothèses du modèle.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/story.css">
+<link rel="stylesheet" href="../assets/css/portfolio-story.css">
+<link rel="stylesheet" href="../assets/css/theme-media.css">
+<script src="../assets/js/profile-media.js" defer></script><script src="../assets/js/story-portfolio.js" defer></script><link rel="stylesheet" href="../assets/css/content-revision.css">
+</head>
+<body class="project-page">
+<a class="skip-link" href="#main"><span data-fr="Aller au contenu" data-en="Skip to content">Aller au contenu</span></a>
+<header class="site-header"><div class="header-inner">
+<a class="site-brand" href="../index.html#welcome" aria-label="Adam El Mehdi — accueil"><span class="monogram">AM.</span><span class="brand-name">Adam El Mehdi</span></a><nav id="primary-navigation" class="main-nav" aria-label="Navigation principale"><ul>
+<li><a href="../index.html#welcome" class=""><span data-fr="WELCOME" data-en="WELCOME">WELCOME</span></a></li>
+<li><a href="../index.html#courses" class=""><span data-fr="Engineering Courses" data-en="Engineering Courses">Engineering Courses</span></a></li>
+<li><a href="../index.html#mobility" class=""><span data-fr="International Mobility" data-en="International Mobility">International Mobility</span></a></li>
+<li><a href="../index.html#sustainability" class=""><span data-fr="Sustainability and Civic Engagement" data-en="Sustainability and Civic Engagement">Sustainability and Civic Engagement</span></a></li>
+<li><a href="../index.html#sport" class=""><span data-fr="Sport and Other Activities" data-en="Sport and Other Activities">Sport and Other Activities</span></a></li>
+<li><a href="../index.html#career" class=""><span data-fr="Career Development" data-en="Career Development">Career Development</span></a></li>
+</ul></nav><div class="header-controls">
+<button type="button" id="theme-toggle" class="theme-toggle" aria-label="Activer le mode sombre" aria-pressed="false"><span class="theme-symbol" aria-hidden="true">◐</span><span class="theme-label">Sombre</span></button><div class="language" role="group" aria-label="Language">
+<button type="button" data-lang="fr" aria-pressed="true">FR</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+</div>
+<button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span data-fr="Menu" data-en="Menu">Menu</span></button>
+</div>
+</div></header>
+<main id="main"><div class="case-shell">
+<a href="../index.html#courses" class="back-link"><span data-fr="← Retour à Engineering Courses" data-en="← Back to Engineering Courses">← Retour à Engineering Courses</span></a><header class="case-heading"><p class="eyebrow" data-fr="TP · MÉCANIQUE DES FLUIDES" data-en="PRACTICAL · FLUID MECHANICS">TP · MÉCANIQUE DES FLUIDES</p>
+<h1><span data-fr="Écoulement de Poiseuille" data-en="Poiseuille flow">Écoulement de Poiseuille</span></h1>
+<p class="lede" data-fr="Du débit et de la différence de charge à la vérification d’un modèle d’écoulement." data-en="From flow rate and head difference to checking a flow model.">Du débit et de la différence de charge à la vérification d’un modèle d’écoulement.</p>
+<div class="case-meta">
+<span data-fr="Fiche de méthode" data-en="Method sheet">Fiche de méthode</span><span data-fr="Mesures expérimentales à documenter" data-en="Experimental measurements to be documented">Mesures expérimentales à documenter</span>
+</div></header><section class="case-section"><h2 data-fr="Le travail présenté" data-en="The work presented">Le travail présenté</h2>
+<p data-fr="Pendant ce TP, j’ai mesuré un débit et une différence de charge, puis utilisé le nombre de Reynolds pour caractériser l’écoulement. Cette fiche explicite la démarche ; les valeurs mesurées et le compte rendu ne sont pas encore publiés." data-en="In this practical, I measured flow rate and head difference, then used the Reynolds number to characterise the flow. This sheet explains the method; measured values and the report are not yet published.">Pendant ce TP, j’ai mesuré un débit et une différence de charge, puis utilisé le nombre de Reynolds pour caractériser l’écoulement. Cette fiche explicite la démarche ; les valeurs mesurées et le compte rendu ne sont pas encore publiés.</p></section><section class="case-section"><h2 data-fr="Relier les grandeurs mesurées" data-en="Connecting the measured quantities">Relier les grandeurs mesurées</h2>
+<div class="method-grid">
+<article><span class="step-number">01</span><h3 data-fr="Débit et vitesse moyenne" data-en="Flow rate and mean velocity">Débit et vitesse moyenne</h3>
+<div class="equation">U = Q / S = 4Q / (πD²)</div>
+<p data-fr="Q est le débit volumique, D le diamètre intérieur et S la section du tube. Les unités doivent être cohérentes : m³/s et m." data-en="Q is volumetric flow rate, D is internal diameter and S is tube cross-section. Units must be consistent: m³/s and m.">Q est le débit volumique, D le diamètre intérieur et S la section du tube. Les unités doivent être cohérentes : m³/s et m.</p></article><article><span class="step-number">02</span><h3 data-fr="Régime d’écoulement" data-en="Flow regime">Régime d’écoulement</h3>
+<div class="equation">Re = ρUD / μ</div>
+<p data-fr="Le nombre de Reynolds permet d’examiner si l’hypothèse d’un écoulement laminaire est adaptée aux conditions de l’essai." data-en="The Reynolds number helps assess whether a laminar-flow assumption fits the experimental conditions.">Le nombre de Reynolds permet d’examiner si l’hypothèse d’un écoulement laminaire est adaptée aux conditions de l’essai.</p></article><article><span class="step-number">03</span><h3 data-fr="Différence de charge" data-en="Head difference">Différence de charge</h3>
+<div class="equation">Δp = ρgΔh</div>
+<p data-fr="Dans une conduite horizontale de même section entre les prises, la différence de charge permet d’obtenir la différence de pression." data-en="For a horizontal pipe with equal cross-sections at the pressure taps, head difference gives the pressure difference.">Dans une conduite horizontale de même section entre les prises, la différence de charge permet d’obtenir la différence de pression.</p></article>
+</div></section><section class="case-section"><h2 data-fr="Ce que le modèle prédit" data-en="What the model predicts">Ce que le modèle prédit</h2>
+<div class="equation">Δp / L = 32μU / D²</div>
+<p data-fr="Cette relation de Poiseuille décrit un écoulement permanent, laminaire et pleinement développé, d’un fluide newtonien incompressible dans un tube circulaire rigide, avec adhérence à la paroi. Elle n’est à comparer aux mesures qu’après examen de ces hypothèses." data-en="This Poiseuille relation describes steady, laminar, fully developed flow of an incompressible Newtonian fluid in a rigid circular pipe, with no slip at the wall. It should be compared with measurements only after checking those assumptions.">Cette relation de Poiseuille décrit un écoulement permanent, laminaire et pleinement développé, d’un fluide newtonien incompressible dans un tube circulaire rigide, avec adhérence à la paroi. Elle n’est à comparer aux mesures qu’après examen de ces hypothèses.</p></section><section class="case-section"><h2 data-fr="Les points à discuter dans le compte rendu" data-en="Points to discuss in the report">Les points à discuter dans le compte rendu</h2>
+<ul class="report-checks">
+<li><span data-fr="Incertitudes sur le débit, le diamètre et la lecture de la différence de charge." data-en="Uncertainty in flow rate, diameter and head-difference readings.">Incertitudes sur le débit, le diamètre et la lecture de la différence de charge.</span></li>
+<li><span data-fr="Position des prises de pression et possibilité d’effets d’entrée." data-en="Pressure-tap positions and possible entrance effects.">Position des prises de pression et possibilité d’effets d’entrée.</span></li>
+<li><span data-fr="Compatibilité entre le régime observé et les hypothèses du modèle." data-en="Compatibility between the observed regime and model assumptions.">Compatibilité entre le régime observé et les hypothèses du modèle.</span></li>
+<li><span data-fr="Comparaison des valeurs mesurées et prédites, sans attribuer tout écart à une erreur de mesure." data-en="Comparison of measured and predicted values, without attributing every discrepancy to measurement error.">Comparaison des valeurs mesurées et prédites, sans attribuer tout écart à une erreur de mesure.</span></li>
+</ul>
+<p class="resource-state" data-fr="Le graphique expérimental et l’analyse des écarts seront ajoutés avec les données du TP." data-en="The experimental plot and discrepancy analysis will be added with the practical data.">Le graphique expérimental et l’analyse des écarts seront ajoutés avec les données du TP.</p></section><div class="case-end"><a href="../projects/tipe.html" class="text-link"><span data-fr="Autre travail expérimental : mon TIPE →" data-en="Another experimental project: my TIPE →">Autre travail expérimental : mon TIPE →</span></a></div>
+</div></main>
+<footer class="site-footer"><p>© 2026 Adam El Mehdi · Toulouse, France</p>
+<p><span data-fr="Adaptation personnelle de" data-en="Personal adaptation of">Adaptation personnelle de</span> <a href="https://html5up.net/story" target="_blank" rel="noopener noreferrer">Story — HTML5 UP</a> · <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a></p></footer>
+<dialog id="image-dialog" class="image-dialog"><button type="button" class="close-dialog" autofocus><span data-fr="Fermer" data-en="Close">Fermer</span> ×</button><img id="expanded-image" alt=""><p id="expanded-caption"></p></dialog>
+</body>
+</html>
