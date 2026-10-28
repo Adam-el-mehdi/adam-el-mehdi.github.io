@@ -1,0 +1,95 @@
+/* Exact six-section brief; developed education, career and mobility records. */
+:root{--header:128px}
+html{scroll-padding-top:152px}
+.header-inner{flex-wrap:wrap;gap:10px 28px;min-height:128px;padding-top:13px;padding-bottom:10px}
+.header-controls{margin-left:auto;order:1}
+.main-nav{order:2;flex-basis:100%;margin:0}
+.main-nav ul{display:grid;grid-template-columns:.65fr 1fr 1fr 1.65fr 1.25fr 1fr;gap:22px;align-items:stretch}
+.main-nav a{height:100%;font-size:.73rem;line-height:1.45;white-space:normal;display:flex;align-items:center;padding:8px 0}
+.main-nav a span{display:block}
+.banner.hero>.image.hero-portrait{background:var(--pale);min-height:610px}
+.hero-photo-blank{position:absolute;inset:0;background:var(--pale)}
+.hero-portrait [hidden]{display:none!important}
+.banner.hero>.hero-portrait img{object-position:50% 35%}
+.hero-interests{font-size:.92rem;color:var(--muted);max-width:470px}
+.hero-details{gap:12px 20px}
+.intro-strip{grid-template-columns:.7fr 1.65fr}
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 30px;margin-bottom:60px;border-bottom:1px solid var(--line)}
+.course-record{padding:28px 0 25px;border-top:1px solid var(--line);min-width:0;scroll-margin-top:155px}
+.course-number{font-size:.72rem;color:var(--wine);display:block;margin-bottom:18px;letter-spacing:.08em}
+.course-record h3{font-family:Georgia,serif;font-size:1.65rem;line-height:1.25;min-height:2.5em;margin-bottom:18px}
+.course-record>p{font-size:.88rem;color:var(--muted);line-height:1.85}
+.course-record .course-concepts{font-size:.75rem;color:var(--wine);line-height:1.9;margin-top:20px}
+.course-record details{margin-top:23px;padding:13px 0;border-bottom:0}
+.course-record summary{font-size:.8rem}
+.course-record dl{margin:20px 0 0;font-size:.82rem;line-height:1.8}
+.course-record dt{font-weight:600;font-size:.77rem;margin-bottom:7px}
+.course-record dd{margin:0 0 18px;color:var(--muted)}
+.course-record .text-link{font-size:.77rem}
+.subsection-heading{margin:45px 0 28px;max-width:900px}
+.subsection-heading h3{font-family:Georgia,serif;font-size:2rem}
+.subsection-heading p:not(.eyebrow){font-size:.93rem;color:var(--muted)}
+.spotlight.project-panel.tipe-results-panel>.image{display:flex;align-items:center;min-height:440px;padding:24px;background:var(--pale)}
+.spotlight.project-panel .image>figure{margin:0;width:100%;min-width:0}
+.spotlight.project-panel .image .media-zoom{display:block;width:100%;height:auto;padding:0;line-height:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+.spotlight.project-panel .image .media-zoom img{position:static;width:100%;height:auto;object-fit:contain}
+.project-panel .image figcaption{font-size:.7rem;padding:12px 0 0;color:var(--muted);line-height:1.6}
+.spotlight.imsa-panel>.image{padding:24px}
+.spotlight.imsa-panel>.image img{box-shadow:none}
+.mobility-options{margin-top:55px;border-top:1px solid var(--line)}
+.university-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+.university-card{border-top:2px solid var(--wine);padding:25px 0 0;min-width:0}
+.university-card h4{font-family:Georgia,serif;font-size:1.75rem;line-height:1.2;min-height:2.4em;margin-bottom:20px}
+.university-card p{font-size:.88rem;color:var(--muted);line-height:1.85}
+.university-card .eyebrow{font-size:.66rem;color:var(--wine);margin-bottom:10px}
+.university-card .course-number{margin-bottom:10px}
+.agreement-type{display:inline-block;padding:3px 10px;border:1px solid var(--line);font-size:.72rem;color:var(--wine);margin:12px 0 15px}
+.university-card .agreement-evidence,.university-card .language-note{font-size:.79rem}
+.language-note{border-top:1px solid var(--line);padding-top:16px}
+.university-links{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:22px}
+.university-links a{font-size:.77rem}
+.mobility-plan{padding:30px;margin-top:40px;border:1px solid var(--line);background:var(--paper)}
+.mobility-plan p{font-size:.88rem;color:var(--muted)}
+.source-date{font-size:.74rem!important;color:var(--muted);line-height:1.8;margin-top:24px}
+.mobility-languages{margin-top:40px}
+.mobility-languages dl{display:grid;grid-template-columns:repeat(4,1fr);margin:24px 0 0;gap:20px}
+.mobility-languages dl>div{border-left:1px solid var(--line);padding-left:20px}
+.mobility-languages dt{font-weight:500;font-size:.95rem}
+.mobility-languages dd{margin:8px 0 0;font-size:.85rem;color:var(--muted)}
+.mobility-languages details p,.reflection-space details p,.personal-interests details p{font-size:.87rem;color:var(--muted);margin-top:20px;max-width:800px}
+.career-profile{max-width:900px;margin-bottom:45px}
+.career-profile .lede{max-width:none;font-size:1rem}
+.career-background{display:grid;grid-template-columns:1.15fr 1fr;gap:75px}
+.career-background h3,.career-evidence>h3,.career-conversations h3,.career-next h3,.career-contact h3,.reflection-space h3,.personal-interests h3,.mobility-languages>h3{font-family:Georgia,serif;font-size:1.85rem}
+.education-timeline{list-style:none;padding:0;margin:28px 0 0;border-left:1px solid var(--line)}
+.education-timeline li{padding:0 0 28px 26px;position:relative}
+.education-timeline li:before{content:'';position:absolute;width:7px;height:7px;background:var(--wine);border-radius:50%;left:-4px;top:8px}
+.timeline-date{font-size:.76rem;color:var(--wine);display:block;margin-bottom:9px}
+.education-timeline h4{font-size:.99rem;letter-spacing:-.02em;margin-bottom:8px;font-weight:600;line-height:1.5}
+.education-timeline p,.career-direction p{font-size:.88rem;color:var(--muted);line-height:1.85}
+.career-evidence{padding-top:35px;border-top:1px solid var(--line);margin-top:25px}
+.career-skills-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 45px;margin-top:30px}
+.career-skills-grid article{border-left:1px solid var(--line);padding-left:22px}
+.career-skills-grid h4{font-size:1rem;line-height:1.5;letter-spacing:-.015em}
+.career-skills-grid p{font-size:.87rem;color:var(--muted)}
+.career-skills-grid .text-link{font-size:.79rem}
+.career-conversations,.career-next{max-width:900px;margin-top:40px;padding-top:32px;border-top:1px solid var(--line)}
+.career-conversations p,.career-next p{font-size:.92rem;color:var(--muted)}
+.career-contact{margin-top:35px}
+.career-contact .contact-links a{color:var(--wine);border-color:var(--line);font-size:.85rem}
+.reflection-space,.personal-interests{margin-top:40px;padding-top:30px;border-top:1px solid var(--line);max-width:900px}
+.reflection-space>p,.personal-interests>p{color:var(--muted);font-size:.93rem}
+.real-interface{margin:28px 0 40px}
+.real-interface .media-zoom{display:block;width:100%;height:auto;padding:0;line-height:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+.real-interface img{width:100%;height:auto;border:1px solid var(--line)}
+.real-interface figcaption{color:var(--muted);font-size:.78rem;margin-top:13px}
+.tipe-lead-result{align-self:center;margin:0}
+.tipe-lead-result .media-zoom{display:block;width:100%;height:auto;padding:0;border:0;box-shadow:none;border-radius:0;background:transparent;line-height:0}
+.tipe-lead-result img{width:100%;height:auto;border:1px solid var(--line)}
+.tipe-lead-result figcaption{color:var(--muted);font-size:.78rem;margin-top:13px}
+.secondary-demo .demo-figure{margin-top:25px}
+.photo-pair:has(>figure:only-child){grid-template-columns:1fr;max-width:680px}
+@media(min-width:1101px){.main-nav{display:block}.menu-toggle{display:none}.theme-label{display:inline}.header-inner{padding-left:38px;padding-right:38px}.site-header .brand-name{display:block}}
+@media(max-width:1100px){:root{--header:76px}.header-inner{min-height:76px;flex-wrap:nowrap;padding:14px 28px}.main-nav{display:none;position:absolute;top:75px;left:0;right:0;padding:15px 26px 22px;background:var(--paper);border-bottom:1px solid var(--line)}.main-nav.open{display:block}.main-nav ul{display:block}.main-nav li{border-bottom:1px solid var(--line)}.main-nav a{padding:13px 0;font-size:.86rem}.header-controls{gap:10px}.menu-toggle{display:block}.theme-label{display:none}html{scroll-padding-top:100px}.course-record{scroll-margin-top:105px}.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.university-grid{gap:23px}.university-card h4{font-size:1.5rem}.career-background{gap:40px}}
+@media(max-width:700px){.header-inner{padding:14px 20px;gap:10px}.header-controls{gap:8px}.banner.hero>.image.hero-portrait{min-height:0;height:350px}.hero-interests{font-size:.9rem}.intro-strip{grid-template-columns:1fr}.course-grid{grid-template-columns:1fr;gap:0;margin-bottom:35px}.course-record{padding:26px 0 20px}.course-record h3{font-size:1.7rem;min-height:0}.course-record>p{font-size:.91rem}.course-record details{margin-top:17px}.course-number{margin-bottom:12px}.spotlight.project-panel.tipe-results-panel>.image{height:auto;min-height:0;padding:19px}.spotlight.imsa-panel>.image{padding:19px;min-height:0}.subsection-heading{margin-top:33px}.subsection-heading h3{font-size:1.8rem}.mobility-options{margin-top:35px}.university-grid{grid-template-columns:1fr;gap:35px}.university-card h4{min-height:0;font-size:1.9rem;max-width:330px}.university-card p{font-size:.9rem}.university-card .agreement-evidence,.university-card .language-note{font-size:.83rem}.mobility-plan{padding:23px;margin-top:30px}.mobility-languages dl{grid-template-columns:1fr 1fr;gap:25px}.career-background{grid-template-columns:1fr;gap:20px}.career-skills-grid{grid-template-columns:1fr;gap:28px}.career-contact .contact-links{flex-direction:column;align-items:flex-start;gap:15px}.career-profile{margin-bottom:32px}.career-profile .lede{font-size:.94rem}.career-evidence{margin-top:35px}.real-interface{margin-top:23px;margin-bottom:30px}.source-date{font-size:.72rem!important}}
+@media print{.course-grid,.university-grid,.career-background,.career-skills-grid{display:block}.course-record,.university-card{break-inside:avoid}.course-record details{display:block}.hero-photo-blank{display:none}.mobility-plan{background:#fff}}
