@@ -35,3 +35,22 @@ Les participations, objectifs de mobilité et responsabilités sont présentés 
 ## Publication
 
 GitHub Pages publie la branche `main` depuis la racine. Les liens internes sont relatifs ; les PDF s’ouvrent dans un nouvel onglet. Le site respecte les préférences de réduction des animations et propose un lien d’évitement, une navigation au clavier et un agrandissement des images.
+
+## Thème et médias personnels
+
+Le bouton de thème est disponible sur les trois pages. La première visite suit le thème système ; un choix manuel clair/sombre est conservé dans le navigateur.
+
+La photo et le pitch vidéo se placent dans l’introduction de l’accueil. Pour les activer, modifier `assets/js/profile-media.js` :
+
+```javascript
+window.AdamPortfolioMedia = {
+  photo: 'assets/images/portrait.jpg',
+  video: 'assets/media/pitch.mp4',
+  poster: '',
+  captions: ''
+};
+```
+
+Ajouter les fichiers correspondants au dépôt. Le champ vidéo accepte un fichier MP4 directement lisible (local ou URL HTTPS directe), pas une page YouTube. `poster` peut désigner une image d’aperçu, `captions` un fichier WebVTT de sous-titres français. Sans fichier, des emplacements « à venir » restent affichés. Aucun téléversement public ni bouton de lecture factice n’est ajouté au portfolio.
+
+![Mode sombre et emplacements photo / vidéo](docs/theme-media-preview.jpg)

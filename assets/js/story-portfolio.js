@@ -4,6 +4,44 @@
   const nav = document.getElementById('primary-navigation');
   const menu = document.getElementById('menu-toggle');
   const dialog = document.getElementById('image-dialog');
+  const themeButton = document.getElementById('theme-toggle');
+  const preference = window.matchMedia('(prefers-color-scheme: dark)');
+  const themeLabel = () => {
+    if (!themeButton) return;
+    const dark = document.documentElement.dataset.theme === 'dark';
+    const fr = document.documentElement.lang === 'fr';
+    themeButton.setAttribute('aria-pressed', String(dark));
+    themeButton.setAttribute('aria-label', fr ? (dark ? 'Activer le mode clair' : 'Activer le mode sombre') : (dark ? 'Switch to light mode' : 'Switch to dark mode'));
+    themeButton.querySelector('.theme-label').textContent = fr ? (dark ? 'Clair' : 'Sombre') : (dark ? 'Light' : 'Dark');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#19171c' : '#fffdfa');
+  };
+  const setTheme = value => { document.documentElement.dataset.theme = value; themeLabel(); };
+  themeButton?.addEventListener('click', () => {
+    const value = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    setTheme(value);
+    try { localStorage.setItem('adam-portfolio-theme', value); } catch (_) {}
+  });
+  preference.addEventListener('change', event => {
+    let stored; try { stored = localStorage.getItem('adam-portfolio-theme'); } catch (_) {}
+    if (stored !== 'dark' && stored !== 'light') setTheme(event.matches ? 'dark' : 'light');
+  });
+  const media = window.AdamPortfolioMedia || {};
+  const photo = document.getElementById('profile-photo');
+  if (photo && media.photo) {
+    photo.addEventListener('load', () => { photo.hidden = false; document.getElementById('portrait-placeholder').hidden = true; });
+    photo.addEventListener('error', () => { photo.hidden = true; document.getElementById('portrait-placeholder').hidden = false; });
+    photo.src = media.photo;
+  }
+  const video = document.getElementById('pitch-video');
+  if (video && media.video) {
+    video.src = media.video;
+    if (media.poster) video.poster = media.poster;
+    if (media.captions) {
+      const track = document.createElement('track'); track.kind = 'captions'; track.srclang = 'fr'; track.label = 'Français'; track.src = media.captions; video.append(track);
+    }
+    video.hidden = false; document.getElementById('pitch-placeholder').hidden = true;
+    video.addEventListener('error', () => { video.hidden = true; document.getElementById('pitch-placeholder').hidden = false; });
+  }
   const languages = ['fr', 'en'];
   const url = new URL(location.href);
   let saved;
@@ -13,6 +51,8 @@
   const applyLanguage = lang => {
     language = lang;
     document.documentElement.lang = lang;
+    themeLabel();
+    document.getElementById('pitch-video')?.setAttribute('aria-label', lang === 'fr' ? 'Vidéo de présentation d’Adam El Mehdi' : 'Adam El Mehdi’s video introduction');
     document.querySelectorAll('[data-fr][data-en]').forEach(el => { el.textContent = el.dataset[lang]; });
     document.querySelectorAll('[data-alt-fr][data-alt-en]').forEach(el => { el.alt = lang === 'fr' ? el.dataset.altFr : el.dataset.altEn; });
     document.querySelectorAll('[data-lang]').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.lang === lang)));
