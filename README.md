@@ -94,10 +94,10 @@ Les captures de documents contenant des identifiants de patients ne sont pas int
 
 ## Allemagne : sources et portée
 
-Trois pistes d’échange documentées, consultées le 28 octobre 2026 :
+Choix de mobilité d’Adam, mis à jour le 29 octobre 2026 : TU Clausthal, TU Hamburg-Harburg et TU Berlin, dans cet ordre d’affichage. Le départ et les accords applicables restent à valider avec les RI de l’ENSEEIHT. Informations disponibles :
 
-- TU Hamburg : liste Erasmus 2026–2027, ENSEEIHT en mécanique (M) : https://www.tuhh.de/t3resources/tuhh/download/international/Studium_im_Ausland_Marina/Erasmus-Vertraege_Liste_fuer_Studierende_Lauf_26_27.pdf
-- KIT Karlsruhe : faculté de mécanique, INPT / ENSEEIHT, niveau master et domaine 0715 : https://www.mach.kit.edu/4837.php
+- TU Hamburg-Harburg : liste Erasmus 2026–2027, ENSEEIHT en mécanique (M) : https://www.tuhh.de/t3resources/tuhh/download/international/Studium_im_Ausland_Marina/Erasmus-Vertraege_Liste_fuer_Studierende_Lauf_26_27.pdf
+- TU Clausthal : informations générales pour les échanges Erasmus (ne vaut pas confirmation d’un accord MF2E) : https://www.izc.tu-clausthal.de/en/ways-to-tu-clausthal/incoming-erasmus
 - TU Berlin : brochure Erasmus 2025–2026 de la faculté V, INPT / ENSEEIHT, notamment domaine 0715 : https://www.static.tu.berlin/fileadmin/www/10004219/INT_SB/Dokumente/Outgoings/Erasmus/Erasmus_A5_Broschueren/Fak_V___ISCED-Code_25-26.pdf
 
 Ces listes décrivent le côté allemand des accords et ne prouvent pas les quotas sortants MF2E pour une future année. Places, modules, langues et Learning Agreement restent à valider avec les RI et le département. Aucun double diplôme ou admission n’est affirmé.
@@ -105,7 +105,7 @@ Ces listes décrivent le côté allemand des accords et ne prouvent pas les quot
 Enseignements / langues :
 
 - TUHH : https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/masters-programs/aeronautics
-- KIT : https://www.mach.kit.edu/english/2381.php
+- TU Clausthal : https://www.izc.tu-clausthal.de/fileadmin/Sites/IZC/Wege_an_die_TU_Clausthal/Dokumente/ERASMUS/FactSheetTUClausthal2025.pdf
 - TU Berlin : https://www.tu.berlin/en/fd/study-teaching
 - ENSEEIHT : https://www.enseeiht.fr/fr/international/mobilite-sortante.html
 
