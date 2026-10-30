@@ -1,0 +1,23 @@
+What motivates me is the moment a difficult problem starts to make sense.
+
+I’m Adam El Mehdi, a first-year engineering student in Fluid Mechanics, Energy and Environment at ENSEEIHT, in Toulouse.
+
+In teams, I often take the lead or check the reasoning behind a decision. I like finding ways to improve things, and classmates sometimes ask me to explain difficult topics.
+
+After two years of preparatory classes in Rabat, moving to France meant rebuilding my daily life. It hasn’t always been easy, but I’m learning to find my feet in a new environment and build my own path.
+
+My TIPE was another step outside my comfort zone: my first time running a physics experiment on my own. I built a magnetic braking setup, used Arduino for measurements and Python for analysis. Under the conditions studied, a slit copper tube had a braking coefficient about twenty percent lower than an intact tube. I had to connect theory with measurements I had collected myself.
+
+During the IMSA Sentinels hackathon, I contributed to planning, prompts and simple programming within a team.
+
+Aircraft have fascinated me since childhood. Now, I’m exploring what working in aeronautics could mean.
+
+Pascal, a retired Airbus engineer, highlighted leadership and the working environment. Gerrard, a retired ONERA researcher, stressed adaptability and earning trust. His “two thousand Mondays” idea reflects what I want: meaningful progress and a team whose company I enjoy.
+
+Laurent’s work in Airbus aircraft certification also interests me because it connects simulation, flight testing and safety through evidence.
+
+My next steps are to strengthen my skills in fluid mechanics and numerical methods, and explore simulation, testing and validation. For a study period abroad, I’m considering TU Clausthal, TU Hamburg-Harburg and TU Berlin. I want to deepen my technical knowledge while adapting to another culture.
+
+Outside engineering, I enjoy philosophy, football and bodybuilding. They reflect my curiosity and my desire to keep challenging myself.
+
+I want to bring that mindset to simulation or testing in aerospace or energy: solve difficult problems, keep learning and help a team move forward.

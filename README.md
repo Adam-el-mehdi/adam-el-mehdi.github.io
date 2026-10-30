@@ -133,8 +133,16 @@ Les anecdotes de délégué, les retours personnels détaillés sur les ateliers
 
 - Les six rubriques et le thème Story sont conservés. Le bloc Career Project regroupe les CV FR/EN, LinkedIn et les accès au pitch, aux rôles modèles et aux mobilités.
 - Le pitch conserve son emplacement dans l’introduction et est annoncé en anglais, pour 2–3 minutes. Aucune vidéo ni photo n’a été fournie ; les emplacements restent disponibles. Les sous-titres peuvent être configurés avec `captionLanguage` et `captionLabel`.
-- Les deux rencontres confirmées (Airbus et ONERA) sont présentées séparément. L’enseignement commun sur la communication reste commun ; les pistes d’exploration ne sont pas présentées comme des propos rapportés.
-- La troisième fiche décrit une rencontre à préparer dans l’énergie. Elle ne vaut pas troisième entretien réalisé. À remplacer avec les informations réelles d’Adam.
+- Les deux rencontres confirmées avec Pascal (Airbus) et Gerrard (ONERA) sont présentées séparément, avec les enseignements personnels fournis par Adam.
+- La troisième fiche est consacrée au profil de Laurent en certification des avions Airbus. Son activité est analysée sans lui attribuer d’entretien ni de propos inventés.
 - Chaque destination allemande est reliée à un objectif personnel (énergie, essais aéronautiques, simulation/aérodynamique). Aucune vérification d’accord n’est ajoutée.
 - Les réalisations s’appuient sur le TIPE et la contribution collective IMSA, sans prix ni résultat inventé. Les questions de réflexion RSE sont prospectives : compléter avec les retours personnels d’Adam.
-- Encore nécessaires : troisième professionnel, enseignements précis de chaque échange, anecdotes et actions d’engagement, photo du site et du CV, enregistrement du pitch. Les CV PDF et le profil LinkedIn ne sont pas modifiés dans cette passe.
+- Encore nécessaires : anecdotes et actions d’engagement, photo du site et du CV, enregistrement du pitch. Les CV PDF et le profil LinkedIn ne sont pas modifiés dans cette passe.
+
+## Alignement personnel et pitch — 30 octobre 2026
+
+La présentation FR/EN reflète désormais les réponses personnelles d’Adam : résolution de problèmes, analyse et vérification, aide aux camarades, adaptation de Rabat à Toulouse, fascination pour les avions depuis l’enfance, philosophie et musculation. Les autres activités et les six rubriques sont conservées.
+
+Les profils sont maintenant Pascal (Airbus : leadership et environnement de travail), Gerrard (ONERA : adaptabilité, confiance et idée des 2 000 lundis) et Laurent (certification Airbus : qualités de vol, performances, simulations et essais). Pascal et Gerrard sont présentés comme des échanges ; Laurent comme un profil professionnel, sans citation ni entretien inventé. Le profil en attente dans l’énergie a été remplacé.
+
+Le script anglais est consultable dans `docs/pitch-adam-el-mehdi-en.txt`, depuis la zone pitch. La vidéo et le portrait attendent toujours les fichiers d’Adam. La conclusion du script est alignée sur la simulation et les essais en aéronautique ou dans l’énergie. Les PDF de CV ne sont pas modifiés.

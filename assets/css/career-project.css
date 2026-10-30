@@ -40,3 +40,9 @@
 @media(max-width:850px){.role-model-grid,.reflection-grid{grid-template-columns:1fr}.role-model-card{padding-top:20px}.role-model-card h4{max-width:600px}.role-model-card dl,.role-model-card>p{max-width:720px}.role-model-grid{gap:27px}.reflection-grid{gap:22px}.role-model-card .role-model-profile{margin-bottom:16px}}
 @media(max-width:700px){.career-project-hub{grid-template-columns:1fr;gap:23px;padding:22px 19px;margin-bottom:29px}.career-project-hub h3{font-size:1.85rem}.career-project-hub p{font-size:.91rem}.career-jump-links{flex-direction:column;align-items:flex-start;gap:12px}.career-resources .text-link{font-size:.85rem}.mobility-rationale p:not(.rationale-label){font-size:.89rem}.role-model-card h4{font-size:1.55rem}.role-model-card dd,.role-model-card p,.reflection-grid p{font-size:.91rem}.role-models>h3{font-size:1.7rem}}
 @media print{.career-project-hub,.role-model-grid,.reflection-grid{display:block}.career-project-hub{background:#fff;padding:20px}.role-model-card,.reflection-grid article{break-inside:avoid;margin-top:20px}}
+
+/* Personal interests remain compact as six entries. */
+.personal-career-note{font-size:.94rem;color:var(--muted);max-width:900px;margin-top:17px}
+.interests-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1100px){.interests-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.interests-grid{grid-template-columns:1fr}}
