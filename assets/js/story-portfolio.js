@@ -37,7 +37,7 @@
     video.src = media.video;
     if (media.poster) video.poster = media.poster;
     if (media.captions) {
-      const track = document.createElement('track'); track.kind = 'captions'; track.srclang = 'fr'; track.label = 'Français'; track.src = media.captions; video.append(track);
+      const track = document.createElement('track'); track.kind = 'captions'; track.srclang = media.captionLanguage || 'en'; track.label = media.captionLabel || 'English'; track.src = media.captions; video.append(track);
     }
     video.hidden = false; document.getElementById('pitch-placeholder').hidden = true;
     video.addEventListener('error', () => { video.hidden = true; document.getElementById('pitch-placeholder').hidden = false; });
@@ -129,3 +129,4 @@
     if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close();
   });
 })();
+

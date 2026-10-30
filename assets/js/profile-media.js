@@ -5,5 +5,8 @@ window.AdamPortfolioMedia = {
   photo: '',
   video: '',
   poster: '',
-  captions: ''
+  captions: '',
+  captionLanguage: 'en',
+  captionLabel: 'English'
 };
+

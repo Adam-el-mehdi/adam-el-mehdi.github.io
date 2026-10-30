@@ -127,3 +127,14 @@ Une quatrième page, `courses/poiseuille.html`, décrit la méthode du TP confir
 Le script Python exécuté reproduit les coefficients arrondis de la présentation et un rapport d’environ 0,80. Le graphique principal n’est affiché qu’une fois sur la page détaillée ; les choix expérimentaux et les limites renvoient directement aux pages correspondantes du PDF.
 
 Les anecdotes de délégué, les retours personnels détaillés sur les ateliers RSE et une fonctionnalité IMSA précise restent à compléter avec les informations d’Adam. Des commentaires HTML réservent leur emplacement. Les formulations publiques restent limitées aux éléments déjà établis.
+
+
+## Career Project — alignement CAM, 30 octobre 2026
+
+- Les six rubriques et le thème Story sont conservés. Le bloc Career Project regroupe les CV FR/EN, LinkedIn et les accès au pitch, aux rôles modèles et aux mobilités.
+- Le pitch conserve son emplacement dans l’introduction et est annoncé en anglais, pour 2–3 minutes. Aucune vidéo ni photo n’a été fournie ; les emplacements restent disponibles. Les sous-titres peuvent être configurés avec `captionLanguage` et `captionLabel`.
+- Les deux rencontres confirmées (Airbus et ONERA) sont présentées séparément. L’enseignement commun sur la communication reste commun ; les pistes d’exploration ne sont pas présentées comme des propos rapportés.
+- La troisième fiche décrit une rencontre à préparer dans l’énergie. Elle ne vaut pas troisième entretien réalisé. À remplacer avec les informations réelles d’Adam.
+- Chaque destination allemande est reliée à un objectif personnel (énergie, essais aéronautiques, simulation/aérodynamique). Aucune vérification d’accord n’est ajoutée.
+- Les réalisations s’appuient sur le TIPE et la contribution collective IMSA, sans prix ni résultat inventé. Les questions de réflexion RSE sont prospectives : compléter avec les retours personnels d’Adam.
+- Encore nécessaires : troisième professionnel, enseignements précis de chaque échange, anecdotes et actions d’engagement, photo du site et du CV, enregistrement du pitch. Les CV PDF et le profil LinkedIn ne sont pas modifiés dans cette passe.

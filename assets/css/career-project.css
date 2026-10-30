@@ -1,0 +1,42 @@
+/* Career Project: the CAM resources within the existing six-section Story layout. */
+#career-project,#role-models,#pitch,#career-simulation,#career-testing,#career-energy,.role-model-card{scroll-margin-top:155px}
+.career-project-hub{display:grid;grid-template-columns:1.2fr 1fr;gap:38px;padding:30px;margin:0 0 38px;background:var(--pale);border-left:3px solid var(--wine);min-width:0}
+.career-project-hub>div,.role-model-card,.reflection-grid article{min-width:0}
+.career-project-hub h3{font-family:Georgia,serif;font-size:2rem;margin-bottom:14px}
+.career-project-hub p{font-size:.93rem;color:var(--muted);line-height:1.8}
+.career-project-hub .eyebrow{font-size:.68rem;color:var(--wine);margin-bottom:13px}
+.career-jump-links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:20px}
+.career-jump-links .text-link{font-size:.8rem;margin:0}
+.career-resources .resource-heading{font-weight:600;color:var(--ink);font-size:.88rem;margin-bottom:8px}
+.career-resources ul{list-style:none;padding:0;margin:0}
+.career-resources li{padding:11px 0;border-bottom:1px solid var(--line)}
+.career-resources li:last-child{border-bottom:0}
+.career-resources .text-link{font-size:.86rem;line-height:1.6;margin:0;overflow-wrap:anywhere}
+.pitch-context{font-size:.84rem!important;line-height:1.75;color:var(--muted);margin-bottom:13px}
+.mobility-rationale{margin:19px 0 0;padding-top:16px;border-top:1px solid var(--line)}
+.mobility-rationale .rationale-label{font-weight:600;font-size:.77rem;color:var(--wine);margin-bottom:8px}
+.mobility-rationale p:not(.rationale-label){font-size:.86rem;line-height:1.8}
+.mobility-rationale .text-link{font-size:.78rem;line-height:1.7;margin-top:6px}
+.role-models{max-width:none;margin-top:30px}
+.role-models>p{max-width:920px;font-size:.92rem}
+.role-model-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:27px}
+.role-model-card{border-top:2px solid var(--wine);padding:22px 0 0;overflow-wrap:anywhere}
+.role-model-card .eyebrow{font-size:.64rem;color:var(--wine);margin-bottom:14px}
+.role-model-card h4{font-family:Georgia,serif;font-size:1.45rem;line-height:1.3;letter-spacing:-.02em;margin-bottom:13px}
+.role-model-card .role-model-profile{font-size:.8rem;color:var(--wine);line-height:1.7;margin-bottom:20px}
+.role-model-card dl{margin:0}
+.role-model-card dt{font-size:.78rem;font-weight:600;color:var(--ink);margin-bottom:7px}
+.role-model-card dd{font-size:.88rem;line-height:1.8;color:var(--muted);margin:0 0 19px}
+.role-model-card p{font-size:.88rem;line-height:1.8}
+.role-model-card .text-link{font-size:.79rem;line-height:1.7;margin-top:4px}
+.upcoming-profile{border-top-style:dashed}
+.reflection-space{max-width:none}
+.reflection-space>p{max-width:900px}
+.reflection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:24px}
+.reflection-grid article{border-top:1px solid var(--line);padding-top:18px}
+.reflection-grid h4{font-size:.98rem;line-height:1.5;letter-spacing:-.02em;margin-bottom:10px}
+.reflection-grid p{font-size:.88rem;line-height:1.8;color:var(--muted)}
+@media(max-width:1100px){#career-project,#role-models,#pitch,#career-simulation,#career-testing,#career-energy,.role-model-card{scroll-margin-top:105px}.career-project-hub{gap:28px;padding:25px}.role-model-grid,.reflection-grid{gap:23px}}
+@media(max-width:850px){.role-model-grid,.reflection-grid{grid-template-columns:1fr}.role-model-card{padding-top:20px}.role-model-card h4{max-width:600px}.role-model-card dl,.role-model-card>p{max-width:720px}.role-model-grid{gap:27px}.reflection-grid{gap:22px}.role-model-card .role-model-profile{margin-bottom:16px}}
+@media(max-width:700px){.career-project-hub{grid-template-columns:1fr;gap:23px;padding:22px 19px;margin-bottom:29px}.career-project-hub h3{font-size:1.85rem}.career-project-hub p{font-size:.91rem}.career-jump-links{flex-direction:column;align-items:flex-start;gap:12px}.career-resources .text-link{font-size:.85rem}.mobility-rationale p:not(.rationale-label){font-size:.89rem}.role-model-card h4{font-size:1.55rem}.role-model-card dd,.role-model-card p,.reflection-grid p{font-size:.91rem}.role-models>h3{font-size:1.7rem}}
+@media print{.career-project-hub,.role-model-grid,.reflection-grid{display:block}.career-project-hub{background:#fff;padding:20px}.role-model-card,.reflection-grid article{break-inside:avoid;margin-top:20px}}
