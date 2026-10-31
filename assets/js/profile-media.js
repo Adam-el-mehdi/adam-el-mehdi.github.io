@@ -2,7 +2,7 @@
    Paths are relative to index.html; video must be a directly playable file URL.
    Example: photo: 'assets/images/portrait.jpg', video: 'assets/media/pitch.mp4'. */
 window.AdamPortfolioMedia = {
-  photo: '',
+  photo: 'assets/images/adam-portrait.jpg',
   video: '',
   poster: '',
   captions: '',

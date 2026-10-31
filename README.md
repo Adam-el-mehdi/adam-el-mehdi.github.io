@@ -154,3 +154,11 @@ Vidéo fournie par Adam : https://youtu.be/5RKAIyQx1b4
 Le lecteur de l’introduction est une iframe responsive 16:9 sur youtube-nocookie.com, sans lecture automatique, avec plein écran et lien vers YouTube. Son titre suit le choix FR/EN. La vidéo reste hébergée sur YouTube ; aucun fichier de 300 Mo n’est ajouté au dépôt. Le lien Career Project n’annonce plus une vidéo à venir.
 
 Pour changer cette vidéo, modifier l’identifiant dans l’iframe et le lien de secours de `index.html`. Le champ `video` de `assets/js/profile-media.js` concerne l’ancien lecteur natif MP4 et n’est pas utilisé pour cette iframe. Le portrait utilise toujours `photo` dans ce fichier.
+
+## Portraits et vidéo actualisés — 31 octobre 2026
+
+La photo 4 fournie par Adam (`IMG_4248.jpeg`) est publiée dans l’accueil sous `assets/images/adam-portrait.jpg`. La photo 8 (`IMG_4252.jpeg`) figure en haut de la colonne latérale des deux CV PDF. Les photographies originales sont conservées, sans retouche du visage. Le contenu, les liens et le format A4 d’une page des CV sont préservés.
+
+Nouvelle vidéo : https://youtu.be/xsaRI6dpGIY. Une couverture locale avec lien de lecture remplace l’iframe au chargement. Un clic crée le lecteur youtube-nocookie.com avec lecture en ligne, commandes accessibles et plein écran. Sans JavaScript, le lien ouvre la vidéo sur YouTube. Aucun appel à YouTube n’est nécessaire avant ce clic.
+
+Les paramètres `modestbranding` et `showinfo` ne permettent plus de supprimer les éléments YouTube. La couverture reste sobre avant lecture ; pendant la lecture, l’interface et l’identité du fournisseur restent sous le contrôle de YouTube. `rel=0` limite les suggestions à la même chaîne, sans les supprimer. Aucun masquage du lecteur ou de son logo n’est appliqué.

@@ -42,6 +42,21 @@
     video.hidden = false; document.getElementById('pitch-placeholder').hidden = true;
     video.addEventListener('error', () => { video.hidden = true; document.getElementById('pitch-placeholder').hidden = false; });
   }
+  const pitchLaunch = document.getElementById('pitch-launch');
+  pitchLaunch?.addEventListener('click', event => {
+    // Keep the anchor as a working direct link when JavaScript is unavailable.
+    event.preventDefault();
+    const frame = document.createElement('iframe');
+    frame.id = 'pitch-youtube';
+    frame.width = '960'; frame.height = '540';
+    frame.src = 'https://www.youtube-nocookie.com/embed/xsaRI6dpGIY?autoplay=1&playsinline=1&controls=1&rel=0';
+    frame.title = document.documentElement.lang === 'fr' ? 'Pitch vidéo d’Adam El Mehdi' : 'Adam El Mehdi’s video pitch';
+    frame.allow = 'autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    frame.allowFullscreen = true;
+    frame.referrerPolicy = 'strict-origin-when-cross-origin';
+    pitchLaunch.replaceWith(frame);
+    frame.focus();
+  });
   const languages = ['fr', 'en'];
   const url = new URL(location.href);
   let saved;
@@ -52,6 +67,7 @@
     language = lang;
     document.documentElement.lang = lang;
     themeLabel();
+    pitchLaunch?.setAttribute('aria-label', lang === 'fr' ? 'Lire le pitch vidéo d’Adam El Mehdi' : 'Play Adam El Mehdi’s video pitch');
     document.getElementById('portrait-placeholder')?.setAttribute('aria-label', lang === 'fr' ? 'Emplacement réservé au portrait d’Adam El Mehdi' : 'Reserved space for Adam El Mehdi’s portrait');
     document.getElementById('pitch-video')?.setAttribute('aria-label', lang === 'fr' ? 'Vidéo de présentation d’Adam El Mehdi' : 'Adam El Mehdi’s video introduction');
     document.getElementById('pitch-youtube')?.setAttribute('title', lang === 'fr' ? 'Pitch vidéo d’Adam El Mehdi' : 'Adam El Mehdi’s video pitch');
