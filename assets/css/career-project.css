@@ -46,3 +46,10 @@
 .interests-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:1100px){.interests-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.interests-grid{grid-template-columns:1fr}}
+
+/* Responsive, manually started YouTube pitch. */
+.pitch-player{position:relative;width:100%;aspect-ratio:16/9;margin:16px 0 0;background:var(--pale);border:1px solid var(--line);overflow:hidden}
+.pitch-player iframe{position:absolute;inset:0;display:block;width:100%;height:100%;border:0}
+.pitch-fallback{margin:10px 0 0!important;font-size:.8rem!important}
+.pitch-fallback .text-link{font-size:inherit;margin:0}
+@media print{.pitch-player{display:none}.pitch-fallback{display:block}}

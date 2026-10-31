@@ -54,6 +54,7 @@
     themeLabel();
     document.getElementById('portrait-placeholder')?.setAttribute('aria-label', lang === 'fr' ? 'Emplacement réservé au portrait d’Adam El Mehdi' : 'Reserved space for Adam El Mehdi’s portrait');
     document.getElementById('pitch-video')?.setAttribute('aria-label', lang === 'fr' ? 'Vidéo de présentation d’Adam El Mehdi' : 'Adam El Mehdi’s video introduction');
+    document.getElementById('pitch-youtube')?.setAttribute('title', lang === 'fr' ? 'Pitch vidéo d’Adam El Mehdi' : 'Adam El Mehdi’s video pitch');
     document.querySelectorAll('[data-fr][data-en]').forEach(el => { el.textContent = el.dataset[lang]; });
     document.querySelectorAll('[data-alt-fr][data-alt-en]').forEach(el => { el.alt = lang === 'fr' ? el.dataset.altFr : el.dataset.altEn; });
     document.querySelectorAll('[data-lang]').forEach(el => el.setAttribute('aria-pressed', String(el.dataset.lang === lang)));

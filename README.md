@@ -132,12 +132,12 @@ Les anecdotes de délégué, les retours personnels détaillés sur les ateliers
 ## Career Project — alignement CAM, 30 octobre 2026
 
 - Les six rubriques et le thème Story sont conservés. Le bloc Career Project regroupe les CV FR/EN, LinkedIn et les accès au pitch, aux rôles modèles et aux mobilités.
-- Le pitch conserve son emplacement dans l’introduction et est annoncé en anglais, pour 2–3 minutes. Aucune vidéo ni photo n’a été fournie ; les emplacements restent disponibles. Les sous-titres peuvent être configurés avec `captionLanguage` et `captionLabel`.
+- Le pitch conserve son emplacement dans l’introduction et est annoncé en anglais, pour 2–3 minutes. Le pitch YouTube est intégré ; l’emplacement du portrait reste disponible. Les sous-titres peuvent être configurés avec `captionLanguage` et `captionLabel`.
 - Les deux rencontres confirmées avec Pascal (Airbus) et Gerrard (ONERA) sont présentées séparément, avec les enseignements personnels fournis par Adam.
 - La troisième fiche est consacrée au profil de Laurent en certification des avions Airbus. Son activité est analysée sans lui attribuer d’entretien ni de propos inventés.
 - Chaque destination allemande est reliée à un objectif personnel (énergie, essais aéronautiques, simulation/aérodynamique). Aucune vérification d’accord n’est ajoutée.
 - Les réalisations s’appuient sur le TIPE et la contribution collective IMSA, sans prix ni résultat inventé. Les questions de réflexion RSE sont prospectives : compléter avec les retours personnels d’Adam.
-- Encore nécessaires : anecdotes et actions d’engagement, photo du site et du CV, enregistrement du pitch. Les CV PDF et le profil LinkedIn ne sont pas modifiés dans cette passe.
+- Encore nécessaires : anecdotes et actions d’engagement, photo du site et du CV. Les CV PDF et le profil LinkedIn ne sont pas modifiés dans cette passe.
 
 ## Alignement personnel et pitch — 30 octobre 2026
 
@@ -145,4 +145,12 @@ La présentation FR/EN reflète désormais les réponses personnelles d’Adam :
 
 Les profils sont maintenant Pascal (Airbus : leadership et environnement de travail), Gerrard (ONERA : adaptabilité, confiance et idée des 2 000 lundis) et Laurent (certification Airbus : qualités de vol, performances, simulations et essais). Pascal et Gerrard sont présentés comme des échanges ; Laurent comme un profil professionnel, sans citation ni entretien inventé. Le profil en attente dans l’énergie a été remplacé.
 
-Le script anglais est consultable dans `docs/pitch-adam-el-mehdi-en.txt`, depuis la zone pitch. La vidéo et le portrait attendent toujours les fichiers d’Adam. La conclusion du script est alignée sur la simulation et les essais en aéronautique ou dans l’énergie. Les PDF de CV ne sont pas modifiés.
+Le script anglais est consultable dans `docs/pitch-adam-el-mehdi-en.txt`, depuis la zone pitch. La vidéo YouTube est intégrée ; le portrait attend le fichier d’Adam. La conclusion du script est alignée sur la simulation et les essais en aéronautique ou dans l’énergie. Les PDF de CV ne sont pas modifiés.
+
+## Pitch YouTube — 31 octobre 2026
+
+Vidéo fournie par Adam : https://youtu.be/5RKAIyQx1b4
+
+Le lecteur de l’introduction est une iframe responsive 16:9 sur youtube-nocookie.com, sans lecture automatique, avec plein écran et lien vers YouTube. Son titre suit le choix FR/EN. La vidéo reste hébergée sur YouTube ; aucun fichier de 300 Mo n’est ajouté au dépôt. Le lien Career Project n’annonce plus une vidéo à venir.
+
+Pour changer cette vidéo, modifier l’identifiant dans l’iframe et le lien de secours de `index.html`. Le champ `video` de `assets/js/profile-media.js` concerne l’ancien lecteur natif MP4 et n’est pas utilisé pour cette iframe. Le portrait utilise toujours `photo` dans ce fichier.
